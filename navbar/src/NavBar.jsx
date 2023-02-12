@@ -105,7 +105,7 @@ const NavBar = () => {
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
           >
-            <Avatar   sx={{ width: 40, height: 40 , bgcolor: "#e3deded4;" , color : "white"}}>JM</Avatar>
+            <Avatar className={styles.iconavatar2}  sx={{ width: 40, height: 40 , bgcolor: "#e3deded4;" , color : "white"}}>JM</Avatar>
           </IconButton>
         
       </Box>
